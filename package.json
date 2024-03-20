@@ -1,0 +1,30 @@
+{
+  "name": "sintquis",
+  "version": "1.0.0",
+  "homepage": "https://github.com/FreidaFarrell/sintquis.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FreidaFarrell/sintquis.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FreidaFarrell/sintquis.git/issues"
+  },
+  "engines": {
+    "node": ">=7.8.0"
+  },
+  "devDependencies": {
+    "dtslint": "latest",
+    "husky": ">=1",
+    "precise-commits": "^1.0.2",
+    "prettier": "^1.17.1",
+    "types-publisher": "github:Microsoft/types-publisher#production"
+  },
+  "dependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "precise-commits"
+    }
+  },
+  "author": "ArielleLind"
+}
